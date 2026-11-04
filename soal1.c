@@ -5,12 +5,11 @@
 
 # include <stdio.h>
 
-
 int main()
 {
 char masukan [50];
    scanf("%c",masukan);
-   FILE *file = fopen("file.txt", "r"); // open file 
+   FILE *file = fopen("file1.txt", "r"); // open file 
     
     if(file == NULL){ // kalo gabisa dibuka return 1 
        return 1;
