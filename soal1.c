@@ -8,7 +8,8 @@
 
 int main()
 {
-    printf("file1.txt Jezero\n");
+char masukan [50];
+   scanf("%c",masukan);
    FILE *file = fopen("file.txt", "r"); // open file 
     
     if(file == NULL){ // kalo gabisa dibuka return 1 
